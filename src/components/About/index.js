@@ -6,10 +6,10 @@ const About = () => {
     <div>
       <h1>Madina Karachai</h1>
       <div className='img__container'>
-        <img className='img-madina' src='/madina.jpeg' alt='madina'/>
-        <img className='img-madina' src='/madina_school.jpeg' alt='madina_school'/>
+        <img className='img-madina' src={process.env.PUBLIC_URL + '/madina.jpeg'} alt='madina'/>
+        <img className='img-madina' src={process.env.PUBLIC_URL + '/madina_school.jpeg'} alt='madina_school'/>
       </div>
-      <a className='link-git' href="https://github.com/madishak/yandex_test">Git репозиторий</a>
+      <a className='link-git' href="https://github.com/madishak/yandex_test.github.io">Git репозиторий</a>
       <p>
         Когда, после тёмных дней, ты возвращаешься за работу,
         когда в свободное время ты интересуешься машиннным обучением, когда с радостью преподаёшь
@@ -20,7 +20,7 @@ const About = () => {
       </p>
       <Link to="game" className="btn">Play Game</Link>
       <p>CSS Trick</p>
-      <video className="video" controls='controls' poster='/madina.jpeg'><source src='/karachai.mp4'/></video>
+      <video className="video" controls='controls' poster={process.env.PUBLIC_URL + '/madina.jpeg'}><source src={process.env.PUBLIC_URL + '/karachai.mp4'}/></video>
     </div>
   );
 };
