@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/yandex_test.github.io/static/css/main.b6c9ae3f.css",
+    "main.js": "/yandex_test.github.io/static/js/main.14e64cc4.js",
+    "index.html": "/yandex_test.github.io/index.html",
+    "main.b6c9ae3f.css.map": "/yandex_test.github.io/static/css/main.b6c9ae3f.css.map",
+    "main.14e64cc4.js.map": "/yandex_test.github.io/static/js/main.14e64cc4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6c9ae3f.css",
+    "static/js/main.14e64cc4.js"
+  ]
+}
