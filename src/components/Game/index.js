@@ -69,7 +69,7 @@ const Game = () => {
         собрать как можно больше еды. Нужно из левого бокса, перемещать в
         правый. Игра на время. P.S. Эта версия игры - прототип. В дальнейшем можно доработать.
       </p>
-      <img src="/siberian-husky.png" className="game_hero" alt="husky" />
+      <img src="./siberian-husky.png" className="game_hero" alt="husky" />
       <p>{countFood}</p>
       <p>{overText}</p>
       <input
